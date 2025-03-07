@@ -6,7 +6,8 @@ site_author: "Docs Team"
 site_name: !ENV [MKDOCS_SITE_NAME, "Hands on Labs"]
 site_url: !ENV [MKDOCS_SITE_URL, null]
 repo_url: !ENV [MKDOCS_REPO_URL, null]
-edit_uri: !ENV [MKDOCS_EDIT_URL, null] 
+edit_uri: !ENV [MKDOCS_EDIT_URL, null]
+#docs_dir: /docs
 
 extra:
   homepage: !ENV [MKDOCS_HOMEPAGE, "https://docs.amerintlxperts.com"]
@@ -35,8 +36,8 @@ extra_javascript:
 use_directory_urls: false
 theme:
   name: material
-  # custom_dir: docs/theme
-  custom_dir: !ENV [CUSTOM_DIR, "docs/theme"]
+  custom_dir: docs/theme
+  # custom_dir: !ENV [CUSTOM_DIR, "theme"]
   logo: theme/fabric.svg
   logo_dark: theme/fabric-white.svg
   favicon: theme/favicon.ico
