@@ -133,6 +133,7 @@ plugins:
       zoomable: true
   - literate-nav:
       nav_file: SUMMARY.md
+  - include-markdown
   - exporter:
       formats:
         pdf:
