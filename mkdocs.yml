@@ -7,7 +7,7 @@ site_name: !ENV [MKDOCS_SITE_NAME, "Hands on Labs"]
 site_url: !ENV [MKDOCS_SITE_URL, null]
 repo_url: !ENV [MKDOCS_REPO_URL, null]
 edit_uri: !ENV [MKDOCS_EDIT_URL, null]
-docs_dir: /docs
+docs_dir: .
 
 extra:
   homepage: !ENV [MKDOCS_HOMEPAGE, "https://docs.amerintlxperts.com"]
